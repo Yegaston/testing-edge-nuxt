@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "NITRO_PRESET=vercel nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.6"
+  },
+  "dependencies": {
+    "@vercel/edge": "0.0.4"
+  }
+}
